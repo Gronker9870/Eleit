@@ -8,7 +8,7 @@ header {
 	height: 70px;
 	border: 3px solid #192845;
 	line-height: 23px;
-	width: 100%;
+	width: 98%;
 	margin: none;
 	
 }
@@ -70,14 +70,37 @@ footer {
 	background-color: #36538a;
 	border: 3px solid #192845;
 	line-height: 23px;
-	width: 100%;
+	width: 98%;
 	height: 70px;  
-	vertical-align: bottom;
-	margin-top: 100%;
+	position: absolute;
+	top: 2500;
+	
 }
 #logo1 {
 	float: left;
+	vertical-align: middle;
+	display: block;
+	
 }
 .div1 {
-	background-color: #2e3754; 
-	padding-bottom: 75px;
+	background-color: #2e3754;
+	padding-bottom: 80px;
+	width: 99%
+}
+.button1 {
+	text-decoration: none;
+	color:  #c5cdd4;
+	background-color: #191e2e;
+	vertical-align: middle;
+	padding: 10px;
+	border-radius: 10px;
+	border: 5px solid #36538a;
+	font-size: 40px;
+	margin-left: 42.5%;
+	width: 15px;
+}
+#wipleit {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
