@@ -118,12 +118,6 @@ footer {
 	text-align: center;
 	font-size: 15px;
 }
-.thumbnail {
-	float: left;
-	margin: 5px;
-	height: 200px;
-	width: 300px;
-}
 .largebr{
 	line-height: 210px;
 }
