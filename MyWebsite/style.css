@@ -48,21 +48,25 @@ a {
 }
 .project {
 	width: 300px;
-	color: black;
+	color: white;
 	text-decoration: none;
 	margin: 5px;
 	text-align: center;
 	font-size: 15px;
+	
 }
 .thumbnail {
 	float: left;
 	margin: 5px;
+	
+	
 }
 .largebr{
 	line-height: 210px;
+	
 }
 .wproject {
-	background-color: #fff;
+	background-color: #315169;
 	width: 310px;
 	height: 250px;
 	float: left;
