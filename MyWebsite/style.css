@@ -169,4 +169,49 @@ img {
 }
 section {
 	background-color: #2e3754;
+	font-size: 20px;
+	padding: 5px;
+
 }
+.prp {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.button2 {
+	text-decoration: none;
+	color:  #c5cdd4;
+	background-color: #191e2e;
+	vertical-align: middle;
+	padding: 3px;
+	border-radius: 5px;
+	border: 5px solid #36538a;
+	font-size: 25px;
+	float: ;
+	width: 15px;
+}
+mark {
+	background-color: #191e2e;
+	color: #c5cdd4;
+}
+.right {
+	width: 75%;
+	float: right;
+	background-color: #2e3754;
+	font-size: 20px;
+	padding: 5px;
+}
+.brdiv {
+	height: 10;
+}
+.left {
+	background-color: #2e3754;
+	font-size: 20px;
+	padding: 5px;
+	float: left;
+	width: 20%;
+}
+.pimage	{
+	overflow: scroll;
+	width: auto;
+	height: auto;
