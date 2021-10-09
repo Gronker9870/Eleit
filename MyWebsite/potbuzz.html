@@ -1,59 +1,79 @@
 <!DOCTYPE = HTML>
 <html>
-<head>
-<title> Controlling a Buzzer With a Potentiometer</title>
-<link rel='stylesheet' type='text/css' href='style.css'>
-<link rel="shortcut icon" type="image/png" href="image/Eleit_No_Text.png"/>
-</head>
-<body>
-<header>
-<img id='logo' src='image/Eleit_Tech.png' alt='Eleit Tech' width=70 heigh=70></img>
-<br>
-<a class = 'button' href=https://gronker9870.github.io/Eleit/MyWebsite/index.html>&nbsp Home &nbsp </a>
-<a class = 'button' href=https://gronker9870.github.io/Eleit/MyWebsite/projects.html>&nbsp Projects &nbsp </a>
-<a class = 'button' href=https://gronker9870.github.io/Eleit/MyWebsite/learn.html>&nbsp Learn &nbsp </a>
-<a class = 'button' href=https://gronker9870.github.io/Eleit/MyWebsite/next.html> &nbsp Up Next &nbsp </a>
-</header>
-
-<h1 class='h1'id='start'> Controlling a Buzzer With a Potentiometer</h1>
-<div class='left'>
-<h3> Contents </h3>
-<a href='#start'>Controlling a buzzer with a potentiometer</a>
-<br>
-<br>
-<a href='#create'>Create the circuit</a>
-</div>
-<div class='right'>
-Here's a very simple project that just about anyone can do. It requires a buzzer, potentiometer, jumper wires, Arduino and breadboard. When you turn the potentiometer, it will send a signal to the buzzer that changes its pitch.
-<br>
-<img src= 'image/project/PiezoPot/s1.png'> </img> 
-<br>
-<h2 class='h1' id='create'><mark> &nbsp Create the circuit &nbsp </mark> </h2>
-<h3> Step 1. </h3>
-Let's start the project! Begin by connecting 5v to the breadboard power-rail, as well as connecting power as well. Remember to disconnect your Arduino from power, or else you might experience malfunctions.
-<br>
-<img class='pimage' src= 'image/project/PiezoPot/s1.png'> </img> 
-<br class='largebr'>
-<h3> Step 2. </h3>
-Place down the potentiometer. Connect the middle pin to analog pin 0, the positive pin to power and the negative pin to ground.
-<img class= 'pimage'src= 'image/project/PiezoPot/s1.png'> </img> 
-<br class='largebr'>
-<br>
-</div>
-<footer class='pfooter'>
-<a href=https://www.youtube.com/channel/UCG4s0cvw5OJ-VlDl7aasFwQ>
-<img src='image/YT.png' width=60 height=40></img>
-</a>
-<a href=https://github.com/Gronker9870/Eleit>
-<img src='image/github.png' width=40 height=40></img>
-</a>
-<a href=https://discord.gg/TREkrYybT8>
-<img class='discordicon' src='image/discord.jpeg' width=40 height=40></img>
-</a>
-<a href=https://gronker9870.github.io/Eleit/MyWebsite/webhub.html>
-<img src='image/eleit_no_text.png' width=40 height=40></img>
-</a>
-</footer>
-
-</body>
+   <head>
+      <title> Controlling a Buzzer With a Potentiometer</title>
+      <link rel='stylesheet' type='text/css' href='style.css'>
+      <link rel="shortcut icon" type="image/png" href="image/Eleit_No_Text.png"/>
+   </head>
+   <body>
+      <header>
+         <img id='logo' src='image/Eleit_Tech.png' alt='Eleit Tech' width=70 heigh=70></img>
+         <br>
+         <a class = 'button' href=https://gronker9870.github.io/Eleit/MyWebsite/index.html>&nbsp Home &nbsp </a>
+         <a class = 'button' href=https://gronker9870.github.io/Eleit/MyWebsite/projects.html>&nbsp Projects &nbsp </a>
+         <a class = 'button' href=https://gronker9870.github.io/Eleit/MyWebsite/learn.html>&nbsp Learn &nbsp </a>
+         <a class = 'button' href=https://gronker9870.github.io/Eleit/MyWebsite/next.html> &nbsp Up Next &nbsp </a>
+      </header>
+      <h1 class='h1'id='start'> Controlling a Buzzer With a Potentiometer</h1>
+      <div class='left'>
+         <h3> Contents </h3>
+         <a href='#start'>Controlling a buzzer with a potentiometer</a>
+         <br>
+         <br>
+         <a href='#create'>Create the circuit</a>
+		 <br>
+		 <br>
+		 <a href='#schematic'>Schematics</a>
+      </div>
+      <div class='right'>
+         <section>
+            Here's a very simple project that just about anyone can do. It requires a buzzer, potentiometer, jumper wires, Arduino and breadboard. When you turn the potentiometer, it will send a signal to the buzzer that changes its pitch.
+            <br>
+			<br>
+            <iframe width="75%" height="75%" src="https://www.youtube.com/embed/QwmTeTyb07c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+         </section>
+         <h2 class='h1' id='create'><mark> &nbsp Create the circuit &nbsp </mark> </h2>
+         <section>
+            <h3> Step 1. </h3>
+            Let's start the project! Begin by connecting 5v to the breadboard power-rail, as well as connecting power as well. Remember to disconnect your Arduino from power, or else you might experience malfunctions.
+            <br>
+            <img class='pimage' src= 'image/project/PiezoPot/s1.png'> </img> 
+            <br class='largebr'>
+         </section>
+         <section>
+		 <h3> Step 2. </h3>
+         Place down the potentiometer. Connect the middle pin to analog pin 0, the positive pin to power and the negative pin to ground.
+         <br>
+         <img class= 'pimage'src= 'image/project/PiezoPot/s2.png'> </img> 
+         <br class='largebr'>
+		 </section>
+		 <section>
+		 
+		 <h3> Step 3. </h3>
+         Place down the buzzer. Connect the positive pin to digital pin 2 and the negative pin to ground.
+         <br>
+         <img class= 'pimage'src= 'image/project/PiezoPot/s1.png'> </img> 
+         <br class='largebr'>
+		 </section>
+         <br>
+		 <h2 class='h1' id='schematic'><mark> &nbsp Schematics &nbsp </mark> </h2>
+		 Here are the completed schematics:
+		 <img class= 'pimage'src= 'image/project/PiezoPot/s1.png'> </img> 
+      </div>
+      <footer class='pfooter'>
+         <a href=https://www.youtube.com/channel/UCG4s0cvw5OJ-VlDl7aasFwQ>
+         <img src='image/YT.png' width=60 height=40></img>
+         </a>
+         <a href=https://github.com/Gronker9870/Eleit>
+         <img src='image/github.png' width=40 height=40></img>
+         </a>
+         <a href=https://discord.gg/TREkrYybT8>
+         <img class='discordicon' src='image/discord.jpeg' width=40 height=40></img>
+         </a>
+         <a href=https://gronker9870.github.io/Eleit/MyWebsite/webhub.html>
+         <img src='image/eleit_no_text.png' width=40 height=40></img>
+         </a>
+      </footer>
+   </body>
 </html>
