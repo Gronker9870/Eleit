@@ -167,12 +167,6 @@ img {
 	margin-right: 50%;
 	width: 15px;
 }
-section {
-	background-color: #2e3754;
-	font-size: 20px;
-	padding: 5px;
-
-}
 .prp {
 	margin-left: auto;
 	margin-right: auto;
@@ -213,5 +207,11 @@ mark {
 }
 .pimage	{
 	overflow: scroll;
-	width: auto;
-	height: auto;
+	max-width:95%;
+	max-height:95%;
+}
+.iframe {
+	overflow: scroll;
+	max-width:95%;
+	max-height:95%;
+}
