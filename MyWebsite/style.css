@@ -215,3 +215,16 @@ mark {
 	max-width:95%;
 	max-height:95%;
 }
+.full {
+	float: left;
+	background-color: #2e3754;
+	font-size: 20px;
+	padding: 5px;
+}
+.code {
+  font-family: 'Courier', monospace;
+  background-color: #1f1f1f;
+  padding: 3px;
+}
+.bfooter {
+	top: 5000;
