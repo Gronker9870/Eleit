@@ -128,27 +128,62 @@ Begin the serial communication. This is so you can view the value of the potenti
 int const Pot = A0;
 int Val;
 void setup() {
-serial begin (9600);
+Serial.begin (9600);
 }
 
 void loop() {  
+Val = analogRead (Pot);
+
+}
+</div>
+</pre>
+Set the variable 'Val' to the value of 'Pot'.
+<div class='code'>
+<pre>
+int const Pot = A0;
+int Val;
+void setup() {
+Serial.begin (9600);
+}
+
+void loop() {  
+Val = analogRead (Pot);
+Serial.print (Val);
 
 }
 </pre>
 </div>
+Print the value of 'Val' to the serial monitor.
+<div class='code'>
+<pre>
+int const Pot = A0;
+int Val;
+void setup() {
+Serial.begin (9600);
+}
+
+void loop() {  
+Val = analogRead (Pot);
+Serial.print (Val);
+tone (2, Val);
+delay (1);
+}
+</pre>
+</div>
+Make the buzzer play a sound, set the pitch to the value of the potentiometer. Create a one millisecond delay as well.
 </div>
 <footer class='bfooter'>
  <a href=https://www.youtube.com/channel/UCG4s0cvw5OJ-VlDl7aasFwQ>
- <img src='image/YT.png' width=60 height=40></img>
+ <img src='image/YT.png' width=40 height=40></img>
  </a>
  <a href=https://github.com/Gronker9870/Eleit>
  <img src='image/github.png' width=40 height=40></img>
  </a>
  <a href=https://discord.gg/TREkrYybT8>
- <img class='discordicon' src='image/discord.jpeg' width=40 height=40></img>
+ <img class='discordicon' src='image/discord.png' width=40 height=40></img>
  </a>
  <a href=https://gronker9870.github.io/Eleit/MyWebsite/webhub.html>
- <img src='image/eleit_no_text.png' width=40 height=40></img>
+ <img src='image/Eleit_Grey.png' width=40 height=40></img>
  </a>
 </footer>
 </body>
