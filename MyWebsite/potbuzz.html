@@ -171,6 +171,27 @@ delay (1);
 </pre>
 </div>
 Make the buzzer play a sound, set the pitch to the value of the potentiometer. Create a one millisecond delay as well.
+<br>
+Our code is complete!
+<h2> Final Code </h2>
+<div class='code'>
+<pre>
+int const Pot = A0;
+int Val;
+void setup() {
+Serial.begin (9600);
+}
+
+void loop() {  
+Val = analogRead (Pot);
+Serial.print (Val);
+tone (2, Val);
+delay (1);
+}
+</pre>
+</div>
+<h2> Finishing </h2>
+Plug the Arduino into your computer and upload the code. Turning the potentiometer will change the pitch of the buzzer, which is constanly playing.
 </div>
 <footer class='bfooter'>
  <a href=https://www.youtube.com/channel/UCG4s0cvw5OJ-VlDl7aasFwQ>
