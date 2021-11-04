@@ -2,7 +2,7 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 	background-color: #191e2e;
 	color: #fff;
-	margin: 0px;
+	margin: 5px;
 }
 header {
 	background-color: #192845;
@@ -209,8 +209,8 @@ mark {
 }
 .iframe {
 	overflow: scroll;
-	max-width:95%;
-	max-height:95%;
+	max-width: 95%;
+	max-height: 95%;
 }
 .full {
 	float: left;
@@ -227,9 +227,30 @@ mark {
 	top: 5000;
 }
 .divheading {
-	font-weight: bold;
+	font-weight: 1;
 	margin: 5px;
 	font-size: 60px;
-	font-family: 'Staatliches', cursive;
+	font-family: 'Staatliches', 'Open Sans', sans-serif;
 	text-align: center;
 }
+.divtext {
+	margin: 5px;
+	text-align: center;
+	font-size: 25px;
+}
+.subdiv1 {
+	background-color: #36538a;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 49.5%;
+	float: left;
+	height: %;
+}
+.subdiv2 {
+	background-color: #36538a;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+	width: 49.5%;
+	float: right;
+	height: 50%
