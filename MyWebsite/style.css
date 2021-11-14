@@ -65,8 +65,10 @@ a {
 .thumbnail {
     align-content: center;
     margin: 5px;
-    max-width: 100%;
-  max-height:  100%;
+    width: auto;
+    height: auto;
+	max-height: 100%;
+	max-width: 50%;
 
 
 }
@@ -79,10 +81,8 @@ a {
 .wproject {
     background-color: #315169;
     width: 100%;
-    height: 250px;
-    float: left;
-    float: bottom;
-    margin: 5px;
+    height: 450px;
+    float: center;
 }
 
 footer {
@@ -306,3 +306,4 @@ mark {
     float: right;
     height: 75%;
   
+
